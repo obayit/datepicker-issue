@@ -4,7 +4,7 @@ import { mapping, light, dark } from "@eva-design/eva"
 import { View, Platform, StatusBar } from "react-native"
 import { ApplicationProvider } from "@ui-kitten/components"
 import { default as theme } from "./theme.json" // <-- Import app theme, generated with https://colors.eva.design/
-import { EditPersonalInfo } from './src/features/EditPersonalInfo';
+import EditPersonalInfo from './src/features/EditPersonalInfo';
 
 // sauce for status bar code: https://github.com/expo/expo/issues/3874#issuecomment-481459231
 StatusBar.setBarStyle("dark-content")

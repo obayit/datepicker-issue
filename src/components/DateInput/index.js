@@ -4,8 +4,10 @@ import { MomentDateService } from "@ui-kitten/moment"
 import moment from "moment"
 
 import { Controller } from "react-hook-form"
-import { CalendarIcon } from "../icons"
-import config from "../../native-common/config"
+
+const config = {
+  odooDateFormat: 'YYYY-MM-DD'
+}
 
 const dateService = new MomentDateService("en", {
   format: config.odooDateFormat
@@ -49,7 +51,6 @@ export function DateInput({
                 onBlur()
                 onBlurCallBack && onBlurCallBack()
               }}
-              accessoryRight={CalendarIcon}
               size="large"
               {...inputProps}
             />
