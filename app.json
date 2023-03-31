@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "owner": "obayit",
+    "name": "Datepicker Issue",
+    "slug": "datepicker-issue",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "itms-apps"
+        ]
+      },
+      "bundleIdentifier": "com.datepickerissue"
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.datepickerissue",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8ec8cb1-7a98-4dc7-bf74-ab362d2c6bdb"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/a8ec8cb1-7a98-4dc7-bf74-ab362d2c6bdb"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "build": {
+    "development": {
+      "channel": "development",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "env": {
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "internal": {
+      "channel": "internal",
+      "env": {
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "internal": {
+      "android": {
+        "track": "internal"
+      }
+    },
+    "production": {
+      "android": {
+        "track": "production"
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 0.50.0",
+    "requireCommit": false,
+    "promptToConfigurePushNotifications": false
+  }
+}
